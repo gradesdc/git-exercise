@@ -11,24 +11,7 @@ def calculate_sum(a: int, b: int) -> int:
 
 
 def calculate_average(numbers: list) -> float:
-    """
-    숫자 리스트의 평균을 반환합니다.
-
-    Args:
-        numbers: 숫자가 담긴 리스트
-
-    Returns:
-        평균값 (소수점 포함)
-
-    Example:
-        >>> calculate_average([1, 2, 3, 4, 5])
-        3.0
-        >>> calculate_average([10, 20])
-        15.0
-    """
-    # TODO: 리스트의 평균을 계산하여 반환하는 코드를 작성하세요
-    pass
-
+    return sum(numbers) / len(numbers)
 
 def find_max(numbers: list) -> int:
     """
