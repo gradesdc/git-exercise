@@ -7,24 +7,7 @@ Git 워크플로우 실습 - 기본 함수 구현하기
 
 
 def calculate_sum(a: int, b: int) -> int:
-    """
-    두 정수의 합을 반환합니다.
-
-    Args:
-        a: 첫 번째 정수
-        b: 두 번째 정수
-
-    Returns:
-        두 정수의 합
-
-    Example:
-        >>> calculate_sum(1, 2)
-        3
-        >>> calculate_sum(-1, 1)
-        0
-    """
-    # TODO: 두 수의 합을 반환하는 코드를 작성하세요
-    pass
+    return a + b
 
 
 def calculate_average(numbers: list) -> float:
