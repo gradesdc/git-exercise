@@ -14,23 +14,7 @@ def calculate_average(numbers: list) -> float:
     return sum(numbers) / len(numbers)
 
 def find_max(numbers: list) -> int:
-    """
-    숫자 리스트에서 최대값을 반환합니다.
-
-    Args:
-        numbers: 숫자가 담긴 리스트
-
-    Returns:
-        리스트 내 최대값
-
-    Example:
-        >>> find_max([1, 5, 3, 9, 2])
-        9
-        >>> find_max([-1, -5, -3])
-        -1
-    """
-    # TODO: 리스트에서 최대값을 찾아 반환하는 코드를 작성하세요
-    pass
+    return max(numbers)
 
 
 if __name__ == "__main__":
